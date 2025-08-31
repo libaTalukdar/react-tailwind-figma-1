@@ -24,7 +24,7 @@ export default function Bomb() {
         {/* Right Image */}
         <div className="flex justify-center md:justify-end">
           <img
-            src="/bomb 1.png" 
+            src="bomb 1.png" 
             alt="Illustration"
             className="w-48 md:w-64"
           />

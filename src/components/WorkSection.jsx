@@ -15,7 +15,7 @@ export default function WorkSection() {
         {/* Left Image */}
         <div className="flex justify-center">
           <img
-            src="/cake 2.png" 
+            src="cake 2.png" 
             alt="Illustration"
             className="w-72 md:w-96"
           />
@@ -68,7 +68,7 @@ export default function WorkSection() {
         {/* Right Image */}
         <div className="order-1 md:order-2 flex justify-center">
           <img
-            src="/Group 17.png" 
+            src="Group 17.png" 
             alt="Illustration"
             className="w-72 md:w-96"
           />

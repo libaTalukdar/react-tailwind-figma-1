@@ -25,7 +25,7 @@ const Hero = () => {
 
       {/* Right Image Section */}
       <div className="flex-1 mt-10 md:mt-0 flex justify-center">
-        <img src="/Component 1.png" alt="Illustration" className="w-80 md:w-[450px]" />
+        <img src="Component 1.png" alt="Illustration" className="w-80 md:w-[450px]" />
       </div>
     </section>
   );

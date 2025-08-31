@@ -3,24 +3,30 @@ import img1 from "/Group 35.png";
 import img2 from "/Component 1.png";
 import img3 from "/Group 39.png";
 
-import { IoIosArrowDropleftCircle } from "react-icons/io";
-import { IoIosArrowDroprightCircle } from "react-icons/io";
+
 export default function Carousel() {
   const slides = [
     {
-      title: <>
-        Make more time <br /> for the work <br/> that matters most
-      </>,
-      description: <>
-      Best software platform for <br/> running an internet business.
-      </>,
-      image: img1, // put your image in public/images
+      title: (
+        <>
+          Make more time <br /> for the work <br /> that matters most
+        </>
+      ),
+      description: (
+        <>
+          Best software platform for <br /> running an internet business.
+        </>
+      ),
+      image: img1,
     },
     {
-      title: <>
-      Grow your business<br/>
-       with powerful tools
-       </>,
+      title: (
+        <>
+          Grow your business
+          <br />
+          with powerful tools
+        </>
+      ),
       description: "Everything you need to scale your startup globally.",
       image: img2,
     },
@@ -56,11 +62,17 @@ export default function Carousel() {
 
         {/* Buttons */}
         <div className="flex space-x-2 mt-4">
-       <IoIosArrowDropleftCircle  className="w-10 h-10 flex items-center justify-center  rounded-full hover:bg-gray-100"
-        onClick={prevSlide}/>
-          <IoIosArrowDroprightCircle  className="w-10 h-10 flex items-center justify-center  rounded-full hover:bg-gray-100"
-        onClick={nextSlide}/>
-         
+          <i
+            className="ri-arrow-left-s-line w-10 h-10 flex p-2 items-center justify-center bg-black text-white rounded-full hover:bg-gray-100 hover:text-gray-950
+          "
+            onClick={prevSlide}
+          ></i>
+          
+          <i
+            className="ri-arrow-right-s-line w-10 h-10 p-2 flex items-center justify-center bg-black text-white rounded-full hover:bg-gray-100 hover:text-gray-950"
+            onClick={nextSlide}
+          ></i>
+          
         </div>
       </div>
 

@@ -2,13 +2,13 @@ import React from "react";
 
 export default function LogoSlider() {
   const logos = [
-    "/Path.png",
-    "/Shape.png",
-    "/Shape_2.png",
-    "/Shape_5 (1).png",
+    "Path.png",
+    "Shape.png",
+    "Shape_2.png",
+    "Shape_5 (1).png",
    
-    "/Shape_10.png",
-    "/Combined Shape.png"
+    "Shape_10.png",
+    "Combined Shape.png"
     
   ];
 

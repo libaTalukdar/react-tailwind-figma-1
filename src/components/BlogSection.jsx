@@ -1,4 +1,7 @@
 import React from "react";
+import img1 from "/Group 38.png";
+import img2 from "/Group 39.png";
+import img3 from "/vase-1-b 2 (1).png";
 
 const blogPosts = [
   {
@@ -8,7 +11,7 @@ const blogPosts = [
       </>
     ),
     description: "Learn how to elevate your design game with practical advice.",
-    image: "public/Group 38.png",
+    image: img1,
     alt: "Design tips",
     label: "Design",
   },
@@ -20,7 +23,7 @@ const blogPosts = [
     ),
     description:
       "Streamline your process and boost productivity with smart tools.",
-    image: "public/Group 39.png",
+    image: img2,
     alt: "Workflow",
     label: "3D illustration",
   },
@@ -31,7 +34,7 @@ const blogPosts = [
       </>
     ),
     description: "Discover techniques to stay focused and get more done.",
-    image: "public/vase-1-b 2 (1).png",
+    image: img3,
     alt: "Productivity hacks",
     label: "Development",
   },
